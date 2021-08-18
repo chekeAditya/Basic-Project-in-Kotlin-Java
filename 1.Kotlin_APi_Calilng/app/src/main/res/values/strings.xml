@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Kotlin</string>
+    <string name="enter_post_id">Enter post id</string>
+    <string name="post">Post</string>
+</resources>
