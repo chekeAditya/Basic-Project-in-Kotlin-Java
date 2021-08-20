@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Fragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="view_transaction">View transaction</string>
+    <string name="send_money">Send Money</string>
+    <string name="view_balance">View Balance</string>
+    <string name="stay_400">Stay : 400 $</string>
+    <string name="grocery_100">Grocery : 100 $</string>
+    <string name="travel_400">Travel : 400 $</string>
+</resources>

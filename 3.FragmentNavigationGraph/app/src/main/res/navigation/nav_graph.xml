@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragmentMain">
+
+    <fragment
+        android:id="@+id/fragmentMain"
+        android:name="com.example.fragment.FragmentMain"
+        android:label="fragment_framgment_main"
+        tools:layout="@layout/fragment_framgment_main" >
+        <action
+            android:id="@+id/action_fragmentMain_to_fragmentViewTransaction"
+            app:destination="@id/fragmentViewTransaction" />
+        <action
+            android:id="@+id/action_fragmentMain_to_fragmentViewBalance"
+            app:destination="@id/fragmentViewBalance" />
+        <action
+            android:id="@+id/action_fragmentMain_to_fragmentViewBalance2"
+            app:destination="@id/fragmentViewBalance" />
+        <action
+            android:id="@+id/action_fragmentMain_to_fragmentChooseRecipient"
+            app:destination="@id/fragmentChooseRecipient" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragmentChooseRecipient"
+        android:name="com.example.fragment.FragmentChooseRecipient"
+        android:label="fragment_choose_recipient"
+        tools:layout="@layout/fragment_choose_recipient" >
+        <action
+            android:id="@+id/action_fragmentChooseRecipient_to_fragmentSpecificAmount2"
+            app:destination="@id/fragmentSpecificAmount" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragmentViewBalance"
+        android:name="com.example.fragment.FragmentViewBalance"
+        android:label="fragment_view_balance"
+        tools:layout="@layout/fragment_view_balance" />
+
+    <fragment
+        android:id="@+id/fragmentViewTransaction"
+        android:name="com.example.fragment.FragmentViewTransaction"
+        android:label="fragment_view_transaction"
+        tools:layout="@layout/fragment_view_transaction" />
+
+    <fragment
+        android:id="@+id/fragmentSpecificAmount"
+        android:name="com.example.fragment.FragmentSpecificAmount"
+        android:label="fragment_specific_amount"
+        tools:layout="@layout/fragment_specific_amount" >
+        <action
+            android:id="@+id/action_fragmentSpecificAmount_to_fragmentConfirmation2"
+            app:destination="@id/fragmentConfirmation2" />
+        <argument android:name="recipentName"
+            android:defaultValue="none"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragmentConfirmation2"
+        android:name="com.example.fragment.FragmentConfirmation"
+        android:label="fragment_confirmation"
+        tools:layout="@layout/fragment_confirmation" />
+</navigation>
