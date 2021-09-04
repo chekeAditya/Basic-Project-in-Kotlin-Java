@@ -35,4 +35,18 @@ fun main() {
      * Kotlin Constructor-Primary,Secondary Constructor
      * If we haven't created any constructor then at that time we are using default constructor
      */
+
+    /**
+     * Kotlin Inheritance :- deriving or creating another class using existence class
+     * Now this derived class inherit the properties of the parent class. that will allow us to use the existing implementation of the parent class
+     * Inheritance helps us in code reusable.
+     *
+     * All the classes in kotlin are final by default so if you want to integrate a class you need to inherit the class you
+        had to tell them we had to inherit this class
+     * open is used to make the class inheritable, now you can inherit this class in the another class
+     *
+     *  all the classes in kotlin are final by default so if you want to integrate a class you need to inherit the class you
+        had to tell them we had to inherit this class for that make the class as open
+     *  If some properties are private then you cannot access them in the child classes
+     */
 }
