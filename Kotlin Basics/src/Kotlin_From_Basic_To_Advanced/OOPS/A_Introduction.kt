@@ -1,7 +1,6 @@
-package Kotlin_From_Basic_To_Advanced.OOPS;
+package Kotlin_From_Basic_To_Advanced.OOPS
 
-public class A_introduction {
-
+fun main() {
     /**
      * OOPS :- Object Oriented Programming System
      * A programming paradigm that uses the concept of classes and objects.
@@ -17,4 +16,23 @@ public class A_introduction {
      * Polymorphism :- We will design a classes in a way that we can reuse the same function to achieve different behaviour's and different classes
      */
 
+    /**
+     * Classes and objects present in Box B_ClassesAndObject package
+     * Kotlin Getters and Setters present in Box B_ClassesAndObject package
+     */
+
+
+    /**
+     * Visibility Modifiers
+     * InKotlin we had 4 types of Visibility Modifiers
+     * public : Default, can be accessed everywhere
+     * internal : Available everywhere in the same module
+     * private : Available only inside the containing file or class
+     * protected : Same as private but available inside subclasses or child classes
+     */
+
+    /**
+     * Kotlin Constructor-Primary,Secondary Constructor
+     * If we haven't created any constructor then at that time we are using default constructor
+     */
 }
