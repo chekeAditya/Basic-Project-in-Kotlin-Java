@@ -16,6 +16,7 @@ class BoxConstructor constructor(
 ) {
 
     init {
+        //used to write the logic
         //called after the primary constructor
         println("Init Block Called")
     }

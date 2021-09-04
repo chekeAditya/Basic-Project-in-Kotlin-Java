@@ -42,11 +42,24 @@ fun main() {
      * Inheritance helps us in code reusable.
      *
      * All the classes in kotlin are final by default so if you want to integrate a class you need to inherit the class you
-        had to tell them we had to inherit this class
+    had to tell them we had to inherit this class
      * open is used to make the class inheritable, now you can inherit this class in the another class
      *
      *  all the classes in kotlin are final by default so if you want to integrate a class you need to inherit the class you
-        had to tell them we had to inherit this class for that make the class as open
+    had to tell them we had to inherit this class for that make the class as open
      *  If some properties are private then you cannot access them in the child classes
+     */
+
+    /**
+     * Kotlin Abstract class
+     * Abstract in kotlin:- it's a keyword, and it means just defining the members or the functions of a class without the actual implementation
+     * When to use this : Whenever you need to define a common set of rules for multiple classes you can make a common parent multiple class, and you can derive the child classes using the base class
+     */
+
+    /**
+     * Interface :-Interface is same as abstract class, and it can contain abstract function and abstract members, and it can also contain function with implementation
+     *
+     * What's the use of interface if it already seems like abstract class?
+     * In an interface you can't have init block or constructor.but for an abstract block you can have primary constructor as well as secondary constructor and you can have init blocks
      */
 }
