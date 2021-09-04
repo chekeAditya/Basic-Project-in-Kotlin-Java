@@ -119,7 +119,5 @@ fun main() {
      * o/p :-   Purple Color filled
                 Also text function" text added
                 Square(width=30,height=40,color=Purple,text=Also text function)
-
-
      */
 }
