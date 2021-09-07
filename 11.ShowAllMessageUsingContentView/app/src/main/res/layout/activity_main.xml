@@ -6,10 +6,16 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <androidx.recyclerview.widget.RecyclerView
+    <ListView
+        android:id="@+id/lvMsg"
+        android:elevation="10dp"
+        android:layout_marginTop="10dp"
         android:layout_width="match_parent"
-        android:id="@+id/recyclerView"
+        android:layout_height="0dp"
+        android:divider="@android:color/black"
+        android:dividerHeight="1dp"
         android:layout_margin="10dp"
-        android:layout_height="match_parent"/>
+        android:layout_weight="1">
+    </ListView>
 
 </LinearLayout>
