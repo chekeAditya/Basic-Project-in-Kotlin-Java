@@ -20,7 +20,7 @@ import android.widget.TextView
 import java.lang.RuntimeException
 
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity(), View.OnClickListener {
 
 
     var lstSms: MutableList<MessageDTO> = ArrayList()
@@ -30,21 +30,54 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        val inboxURI = Uri.parse("content://sms/inbox")
-        val reqCols = arrayOf("_id", "address", "body")
-        val cr = contentResolver
-        val c = cr.query(inboxURI, reqCols, null, null, null)
-
-        // Attached Cursor with adapter and display in listview
-        adapter = SimpleCursorAdapter(
-            this, R.layout.row, c, arrayOf("body", "address"), intArrayOf(
-                R.id.lblMsg, R.id.lblNumber
-            )
-        )
-        lvMsg.adapter = adapter
-
+        btnInbox.setOnClickListener(this)
+        btnSentBox.setOnClickListener(this)
+        btnDraft.setOnClickListener(this)
     }
 
+    override fun onClick(v: View?) {
+        if (v == btnInbox) {
+            val inboxURI = Uri.parse("content://sms/inbox")
+            val reqCols = arrayOf("_id", "address", "body")
+            val cr = contentResolver
+            val c = cr.query(inboxURI, reqCols, null, null, null)
+
+            // Attached Cursor with adapter and display in listview
+            adapter = SimpleCursorAdapter(
+                this, R.layout.row, c, arrayOf("body", "address"), intArrayOf(
+                    R.id.lblMsg, R.id.lblNumber
+                )
+            )
+            lvMsg.adapter = adapter
+
+        }
+
+        if (v == btnSentBox) {
+            val sentURI = Uri.parse("content://sms/sent")
+            val reqCols = arrayOf("_id", "address", "body")
+            val cr = contentResolver
+            val c = cr.query(sentURI, reqCols, null, null, null)
+            adapter = SimpleCursorAdapter(
+                this, R.layout.row, c, arrayOf("body", "address"), intArrayOf(
+                    R.id.lblMsg, R.id.lblNumber
+                )
+            )
+            lvMsg.adapter = adapter
+        }
+
+        if (v === btnDraft) {
+            val draftURI = Uri.parse("content://sms/draft")
+            val reqCols = arrayOf("_id", "address", "body")
+            val cr = contentResolver
+            val c = cr.query(draftURI, reqCols, null, null, null)
+            adapter = SimpleCursorAdapter(
+                this, R.layout.row, c, arrayOf("body", "address"), intArrayOf(
+                    R.id.lblMsg, R.id.lblNumber
+                )
+            )
+            lvMsg.adapter = adapter
+        }
+    }
 
 //    private fun getMessage() {
 //        val c = cr.query(
