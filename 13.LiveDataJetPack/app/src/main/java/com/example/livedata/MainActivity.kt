@@ -32,6 +32,7 @@ class MainActivity : AppCompatActivity() {
             */
             dataClass.getDBNewData()
         }
+        /**
         //whenever data get changes it will also update it's just one time setup
         dataClass.getApiData().observe(this, Observer {
             val data = it
@@ -40,11 +41,15 @@ class MainActivity : AppCompatActivity() {
 
         dataClass.getDBData().observe(this, Observer {
             val data = it
+            textView.text = data
+        })
+        */
+        dataClass.getMediatorLiveData().observe(this, Observer {
             textView.text = it
         })
     }
 
-    fun updateTextView(newData: String) {
-        textView.text = newData
-    }
+//    fun updateTextView(newData: String) {
+//        textView.text = newData
+//    }
 }
