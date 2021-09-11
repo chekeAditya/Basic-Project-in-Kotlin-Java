@@ -30,6 +30,7 @@ class MainActivity : AppCompatActivity() {
             val data = dataClass.getDBData()
             updateTextView(data)
             */
+            dataClass.getDBNewData()
         }
         //whenever data get changes it will also update it's just one time setup
         dataClass.getApiData().observe(this, Observer {
