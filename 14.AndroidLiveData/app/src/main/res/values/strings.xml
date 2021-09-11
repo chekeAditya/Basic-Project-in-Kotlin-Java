@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Android LiveData</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fragment_a">Fragment A</string>
+    <string name="fragment_b">Fragment B</string>
+    <string name="increment_count">Increment Count</string>
+    <string name="incrementing_count">Incrementing Count in Frag A</string>
+    <string name="incrementing_count_FragB">Incrementing Count in Frag B</string>
+</resources>
