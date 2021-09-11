@@ -109,7 +109,6 @@ class DatabaseHandler(private val context: Context) :
         } else {
             Toast.makeText(context, "Task Failed To  Delete", Toast.LENGTH_SHORT).show()
         }
-
     }
 
     override fun onUpgrade(db: SQLiteDatabase?, oldVersion: Int, newVersion: Int) {

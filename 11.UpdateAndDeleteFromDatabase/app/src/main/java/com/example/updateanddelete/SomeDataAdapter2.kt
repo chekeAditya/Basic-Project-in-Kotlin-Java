@@ -27,5 +27,6 @@ class SomeDataAdapter2(private val ads: List<AdModel>, val listener: OnRowItemCl
     }
 
     override fun getItemCount(): Int {
+        return ads.size
     }
 }
