@@ -39,3 +39,9 @@ class DataClass {
         return mediatorLiveData
     }
 }
+/*
+Types of LiveData :-
+1.Mutable livedata
+2.ImMutable livedata
+3.Mediator livedata
+ */
