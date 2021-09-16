@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Budget Manager</string>
+    <string name="budget_manager">Budget Manager</string>
+    <string name="income">Income</string>
+    <string name="expenses">Expenses</string>
+    <string name="balance">Balance</string>
+    <string name="_0">0</string>
+    <string name="health">Health</string>
+    <string name="_800">800</string>
+</resources>

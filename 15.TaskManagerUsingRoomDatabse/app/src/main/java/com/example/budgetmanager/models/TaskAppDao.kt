@@ -1,10 +1,7 @@
 package com.masai.taskmanagerapp.models
 
 import androidx.lifecycle.LiveData
-import androidx.room.Dao
-import androidx.room.Insert
-import androidx.room.OnConflictStrategy
-import androidx.room.Query
+import androidx.room.*
 
 @Dao
 interface TaskAppDao {
@@ -17,6 +14,13 @@ interface TaskAppDao {
     @Query("select * from tasks") //we can use single data using select id,title,`desc` from tasks
     fun getTasks(): LiveData<List<Task>> //returning the list of tasks or if we wrap with LiveData then it will give the live data
 
+    //updating data to update it uses the primary key
+    @Update
+    fun updateTask(task: Task)
+
+    //Delete
+    @Delete
+    fun delete(task: Task)
 
 }
 /**

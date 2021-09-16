@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_marginStart="15dp"
+    android:elevation="10dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginEnd="15dp"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/health"
+            android:id="@+id/healthLogo"
+            android:background="@drawable/circle"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/health"
+            android:layout_toEndOf="@+id/healthLogo"
+            android:layout_centerVertical="true"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:layout_marginStart="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_800"
+            android:layout_marginEnd="10dp"
+            android:layout_centerVertical="true"
+            android:textSize="15sp"
+            android:layout_alignParentEnd="true"
+            android:textColor="@color/cyan"
+            android:layout_marginStart="20dp"
+            tools:ignore="RelativeOverlap" />
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

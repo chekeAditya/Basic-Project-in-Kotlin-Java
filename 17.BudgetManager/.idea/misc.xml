@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android Development/Projects/BudgetManager/app/src/main/res/drawable/circle.xml" value="0.28615384615384615" />
+        <entry key="..\:/Android Development/Projects/BudgetManager/app/src/main/res/font/amaranth_bold.xml" value="0.24722222222222223" />
+        <entry key="..\:/Android Development/Projects/BudgetManager/app/src/main/res/layout/activity_add.xml" value="0.27447916666666666" />
+        <entry key="..\:/Android Development/Projects/BudgetManager/app/src/main/res/layout/activity_home.xml" value="0.27447916666666666" />
+        <entry key="..\:/Android Development/Projects/BudgetManager/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Android Development/Projects/BudgetManager/app/src/main/res/layout/item_layout_home.xml" value="0.2" />
+        <entry key="..\:/Android Development/Projects/BudgetManager/app/src/main/res/layout/item_layout_homw.xml" value="0.27447916666666666" />
+        <entry key="..\:/Android Development/Projects/BudgetManager/app/src/main/res/layout/item_task_layout.xml" value="0.27447916666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
