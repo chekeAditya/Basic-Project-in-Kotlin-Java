@@ -5,113 +5,14 @@
       <config />
     </shared>
   </component>
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="NONE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6479c40-d109-4193-9d28-e5336acaf579" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabase/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabase/.idea/$CACHE_FILE$" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabase/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabase/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabase/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabase/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabase/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabase/.idea/dictionaries" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabase/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabase/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabase/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabase/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabase/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabase/app/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabase/app/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabase/app/src/androidTest/java/com/masai/taskmanagerapp/ExampleInstrumentedTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabase/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabase/app/src/main/java/com/masai/taskmanagerapp/MainActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabase/app/src/main/java/com/masai/taskmanagerapp/adapter/OnTaskItemClicked.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabase/app/src/main/java/com/masai/taskmanagerapp/adapter/TasksAdapter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabase/app/src/main/java/com/masai/taskmanagerapp/models/Task.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabase/app/src/main/java/com/masai/taskmanagerapp/models/TaskAppDao.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabase/app/src/main/java/com/masai/taskmanagerapp/models/TaskRoomDatabase.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabase/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabase/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabase/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabase/app/src/main/res/layout/add_task_layout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabase/app/src/main/res/layout/task_item_row.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabase/app/src/main/res/menu/menu_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabase/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabase/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabase/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabase/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabase/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabase/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabase/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabase/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabase/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabase/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabase/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabase/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabase/app/src/main/res/navigation/nav_graph.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabase/app/src/main/res/values-night/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabase/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabase/app/src/main/res/values/dimens.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabase/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabase/app/src/main/res/values/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabase/app/src/test/java/com/masai/taskmanagerapp/ExampleUnitTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabase/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabase/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabase/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabase/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabase/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabase/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabase/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabse/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabse/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabse/app/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabse/app/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabse/app/src/androidTest/java/com/example/budgetmanager/ExampleInstrumentedTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabse/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabse/app/src/main/java/com/example/budgetmanager/MainActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabse/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabse/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabse/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabse/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabse/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabse/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabse/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabse/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabse/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabse/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabse/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabse/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabse/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabse/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabse/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabse/app/src/main/res/values-night/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabse/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabse/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabse/app/src/main/res/values/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabse/app/src/test/java/com/example/budgetmanager/ExampleUnitTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabse/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabse/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabse/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabse/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabse/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabse/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabse/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabse/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabse/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabse/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabse/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabse/app/src/main/java/com/example/budgetmanager/models/TaskAppDao.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabse/app/src/main/java/com/example/budgetmanager/models/TaskAppDao.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabse/app/src/main/java/com/example/budgetmanager/models/TaskRoomDatabase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabse/app/src/main/java/com/example/budgetmanager/models/TaskRoomDatabase.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AmazonPrimeVideo" beforeDir="false" afterPath="$PROJECT_DIR$/../AmazonPrimeVideo" afterDir="false" />
-    </list>
+    <list default="true" id="e6479c40-d109-4193-9d28-e5336acaf579" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\aditya cheke\.android\avd\Aditya.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="192.168.101.101:5555" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -134,26 +35,18 @@
       </list>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
   <component name="ProjectId" id="1dMIeppozzzvUYwVXApT0B5z6Jy" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ResourceManagerPrefKey.ResourceType" value="NAVIGATION" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../15.TaskManagerUsingRoomDatabse" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
-    <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
@@ -223,10 +116,11 @@
       <option name="ACTIVITY_CLASS" value="" />
       <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
       <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
-      <method v="2" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
     </configuration>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -239,5 +133,27 @@
       <updated>1592228633351</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="751" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1592424822192">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="751" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1592424822192" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1592463144196">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592463144196" />
+    <state x="732" y="172" width="458" height="695" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1592310463383">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="732" y="172" width="458" height="695" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592310463383" />
+    <state x="540" y="275" key="AndroidCreateResourceFileDialog" timestamp="1592424581309">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="540" y="275" key="AndroidCreateResourceFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592424581309" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1592311741280">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1592311741280" />
   </component>
 </project>
