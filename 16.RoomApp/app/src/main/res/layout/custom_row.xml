@@ -3,6 +3,7 @@
     android:layout_width="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:elevation="10dp"
+    android:id="@+id/rowLayout"
     app:cardCornerRadius="20dp"
     android:layout_margin="10dp"
     android:layout_height="wrap_content">
@@ -10,6 +11,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="center_vertical"
         android:layout_margin="5dp">
 
     <TextView
@@ -18,7 +20,7 @@
         android:text=""
         android:id="@+id/tvId"
         android:textSize="40sp"
-        android:layout_margin="20dp"
+        android:layout_margin="8dp"
         android:layout_height="wrap_content"/>
 
     <TextView

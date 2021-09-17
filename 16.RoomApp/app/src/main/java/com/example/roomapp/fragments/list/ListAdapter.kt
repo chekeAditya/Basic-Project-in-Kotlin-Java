@@ -1,12 +1,12 @@
 package com.example.roomapp.fragments.list
 
-import android.text.Layout
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.findNavController
 import androidx.recyclerview.widget.RecyclerView
 import com.example.roomapp.R
-import com.example.roomdatabase.data.User
+import com.example.roomapp.model.User
 import kotlinx.android.synthetic.main.custom_row.view.*
 
 class ListAdapter : RecyclerView.Adapter<ListAdapter.MyViewHolder>() {
@@ -27,6 +27,11 @@ class ListAdapter : RecyclerView.Adapter<ListAdapter.MyViewHolder>() {
         holder.itemView.tvFirstName.text = currentItem.firstName
         holder.itemView.tvLastName.text = currentItem.lastName
         holder.itemView.tvAge.text = currentItem.age.toString()
+
+        holder.itemView.rowLayout.setOnLongClickListener {
+            val action = ListFragmentDirections.actionListFragmentToUpdateFragment(currentItem)
+            holder.itemView.findNavController().navigate(action)
+        }
     }
 
     fun setData(user: List<User>){
