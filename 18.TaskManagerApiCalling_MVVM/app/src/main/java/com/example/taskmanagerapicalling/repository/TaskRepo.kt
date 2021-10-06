@@ -37,7 +37,7 @@ class TaskRepo(private val taskAppDao: TaskAppDao) {
     // this operation should be happened in the bg thread
     fun addTaskToRoom(task: Task) {
         CoroutineScope(Dispatchers.IO).launch {
-            taskAppDao.addTask(task)
+            taskAppDao.addTask(task)    
         }
     }
 

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".ui.auth.LoginFragment">
+
+    <EditText
+        android:id="@+id/etPasswordLogin"
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:layout_height="wrap_content"
+        android:hint="enter Password" />
+
+    <EditText
+        android:id="@+id/etEmailLogin"
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:layout_height="wrap_content"
+        android:hint="enter email" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_height="wrap_content"
+        android:text="Login" />
+
+
+    <Button
+        android:id="@+id/btnDontHaveAccount"
+        android:layout_width="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@android:color/transparent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Dont have account" />
+
+</LinearLayout>

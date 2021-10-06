@@ -1,0 +1,104 @@
+package com.example.taskmanagerapicalling.views.adapter
+
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+import androidx.lifecycle.Observer
+import androidx.lifecycle.ViewModelProviders
+
+import androidx.recyclerview.widget.LinearLayoutManager
+import com.example.taskmanagerapicalling.R
+import com.example.taskmanagerapicalling.repository.TaskRepo
+import com.example.taskmanagerapicalling.viewmodels.TaskViewModel
+import com.example.taskmanagerapicalling.viewmodels.TaskViewModelFactory
+import com.google.android.material.floatingactionbutton.FloatingActionButton
+import com.example.taskmanagerapicalling.models.local.Task
+import com.example.taskmanagerapicalling.models.local.TaskAppDao
+import com.example.taskmanagerapicalling.models.local.TaskRoomDatabase
+import com.example.taskmanagerapicalling.models.remote.requests.LoginRequestModel
+import dagger.hilt.android.AndroidEntryPoint
+import kotlinx.android.synthetic.main.activity_main.*
+
+class MainActivity() : AppCompatActivity(), OnTaskItemClicked {
+
+    lateinit var taskAdapter: TasksAdapter
+    private val tasksList = mutableListOf<Task>()
+
+    lateinit var viewModel: TaskViewModel
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+
+        /*roomDb = TaskRoomDatabase.getDatabaseObject(this)
+        taskDao = roomDb.getTaskDAO()
+
+        val repo = TaskRepo(taskDao)
+        val viewModelFactory = TaskViewModelFactory(repo)
+        */
+
+        viewModel = ViewModelProviders.of(this).get(TaskViewModel::class.java)
+
+        val loginRequestModel = LoginRequestModel(
+            userName = "pradeep1706108@gmail.com",
+            password = "dhankhar")
+
+/*
+        viewModel.userLogin(loginRequestModel).observe(this, Observer {
+            val response = it
+
+            //checking the response (success or failure)
+            when (response.status) {
+                Status.SUCCESS -> {
+                    //get the response
+                    val name = response.data?.user?.name!!
+                    val email = response.data?.user?.email!!
+                    longToast("$name and $email")
+
+                }
+                Status.ERROR -> {
+                    //will show the error
+                    val error = response.message!!
+                    longToast("$error")
+                }
+                Status.LOADING -> {
+                    //waiting for the response
+                    val loading = "Loading"
+                    longToast("$loading")
+                }
+            }
+        })
+*/
+
+        findViewById<FloatingActionButton>(R.id.fab).setOnClickListener { view ->
+            val newTask = Task("Dummy Title", "Dummy desc")
+            viewModel.addTask(newTask)
+        }
+
+        taskAdapter = TasksAdapter(this, tasksList, this)
+        recyclerview.layoutManager = LinearLayoutManager(this)
+        recyclerview.adapter = taskAdapter
+
+        //subscribing the data which we need
+        viewModel.getTasksFromDB().observe(this, Observer {
+            tasksList.clear()
+            tasksList.addAll(it)
+            taskAdapter.notifyDataSetChanged()
+        })
+
+        viewModel.getTasksFromAPI()
+    }
+
+    override fun onEditClicked(task: Task) {
+        val newTitle = "New Title"
+        val newDesc = "New Desc"
+
+        task.title = newTitle
+        task.desc = newDesc
+
+        viewModel.updateTask(task)
+    }
+
+    override fun onDeleteClicked(task: Task) {
+        viewModel.deleteTask(task)
+    }
+}

@@ -1,4 +1,4 @@
-package com.example.budgetmanager.views.adapter
+package com.example.taskmanagerusingmvvm.views.adapter
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -9,6 +9,8 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.budgetmanager.repository.TaskRepo
 import com.example.budgetmanager.viewmodels.TaskViewModel
 import com.example.budgetmanager.viewmodels.TaskViewModelFactory
+import com.example.budgetmanager.views.adapter.OnTaskItemClicked
+import com.example.budgetmanager.views.adapter.TasksAdapter
 import com.example.taskmanagerusingmvvm.R
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.masai.taskmanagerapp.models.Task
@@ -53,7 +55,6 @@ class MainActivity() : AppCompatActivity(), OnTaskItemClicked {
             tasksList.addAll(it)
             taskAdapter.notifyDataSetChanged()
         })
-
     }
 
     override fun onEditClicked(task: Task) {

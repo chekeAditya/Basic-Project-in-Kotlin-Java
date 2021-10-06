@@ -11,7 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TaskManagerUsingMVVM">
         <activity
-            android:name="com.example.budgetmanager.views.adapter.MainActivity"
+            android:name=".views.adapter.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

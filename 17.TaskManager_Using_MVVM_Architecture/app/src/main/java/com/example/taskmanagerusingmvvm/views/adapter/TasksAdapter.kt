@@ -40,13 +40,12 @@ class TasksAdapter(val context: Context, val tasksList: MutableList<Task>,val li
 
 
     class TaskViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-        var title: TextView
+        var title: TextView = itemView.findViewById(R.id.tvTaskTitle)
         var desc: TextView
         var editTv: TextView
         var delete: TextView
 
         init {
-            title = itemView.findViewById(R.id.tvTaskTitle)
             desc = itemView.findViewById(R.id.tvDesc)
             editTv = itemView.findViewById(R.id.editTv)
             delete = itemView.findViewById(R.id.deleteTv)

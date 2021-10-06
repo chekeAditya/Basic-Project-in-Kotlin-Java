@@ -1,3 +1,5 @@
+import java.sql.Wrapper
+
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
@@ -32,6 +34,9 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+}
+task wrapper(type: Wrapper){
+    gradleVersion = '4.1.2'
 }
 
 dependencies {

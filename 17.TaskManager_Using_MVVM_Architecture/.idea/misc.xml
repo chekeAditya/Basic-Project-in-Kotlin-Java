@@ -5,6 +5,7 @@
       <map>
         <entry key="..\:/Android Development/Kotlin/17.TaskManager_Using_MVVM_Architecture/app/src/main/res/layout/activity_main.xml" value="0.22447916666666667" />
         <entry key="..\:/Android Development/Kotlin/17.TaskManager_Using_MVVM_Architecture/app/src/main/res/layout/add_task_layout.xml" value="0.18819655521783182" />
+        <entry key="..\:/Android Development/Kotlin/17.TaskManager_Using_MVVM_Architecture/app/src/main/res/layout/task_item_row.xml" value="0.38697916666666665" />
       </map>
     </option>
   </component>
