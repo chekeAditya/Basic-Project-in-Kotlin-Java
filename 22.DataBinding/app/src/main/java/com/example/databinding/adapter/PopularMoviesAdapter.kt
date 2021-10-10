@@ -4,9 +4,9 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.RecyclerView
+import com.bumptech.glide.Glide
 import com.example.databinding.R
 import com.example.databinding.databinding.ItemLayoutBinding
-import com.example.databinding.remote.model.PopularMoviesModel
 import com.example.databinding.remote.response.ResultModel
 
 class PopularMoviesAdapter(
@@ -19,6 +19,7 @@ class PopularMoviesAdapter(
 
         fun onBind(resultModel: ResultModel) {
             itemLayoutBinding.popularMoviesItem = resultModel
+            Glide.with(itemLayoutBinding.ivImage).load("https://image.tmdb.org/t/p/w500/"+resultModel.backdropPath).into(itemLayoutBinding.ivImage)
         }
     }
 
