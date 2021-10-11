@@ -58,7 +58,7 @@ dependencies {
     kapt("com.google.dagger:hilt-android-compiler:2.38.1")
 
     // ViewModel and LiveData
-    def arch_version = '2.2.0-alpha01'
+    def arch_version = '2.2.0'
     implementation "androidx.lifecycle:lifecycle-extensions:$arch_version"
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$arch_version"
     implementation "androidx.lifecycle:lifecycle-livedata-ktx:$arch_version"
