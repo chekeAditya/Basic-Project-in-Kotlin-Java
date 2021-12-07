@@ -9,7 +9,11 @@ import kotlinx.coroutines.Dispatchers
 import javax.inject.Inject
 
 class Repository @Inject constructor(private val apiClient: APIClient) {
+
+
     suspend fun getResponse(): List<ResultModel> {
         return  apiClient.getAPIResponse().resultModels
     }
+
+
 }

@@ -4,14 +4,15 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Android Development/Kotlin/24.FirebaseChatApplication/app/src/main/res/drawable-v24/button_background.xml" value="0.240625" />
+        <entry key="..\:/Android Development/Kotlin/24.FirebaseChatApplication/app/src/main/res/drawable-v24/ic_send.xml" value="0.20833333333333334" />
         <entry key="..\:/Android Development/Kotlin/24.FirebaseChatApplication/app/src/main/res/drawable-v24/item_left_side_background.xml" value="0.23692307692307693" />
         <entry key="..\:/Android Development/Kotlin/24.FirebaseChatApplication/app/src/main/res/drawable-v24/item_right_side_background.xml" value="0.240625" />
-        <entry key="..\:/Android Development/Kotlin/24.FirebaseChatApplication/app/src/main/res/layout/activity_chat.xml" value="0.1" />
+        <entry key="..\:/Android Development/Kotlin/24.FirebaseChatApplication/app/src/main/res/layout/activity_chat.xml" value="0.16" />
         <entry key="..\:/Android Development/Kotlin/24.FirebaseChatApplication/app/src/main/res/layout/activity_home.xml" value="0.21041666666666667" />
         <entry key="..\:/Android Development/Kotlin/24.FirebaseChatApplication/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/Android Development/Kotlin/24.FirebaseChatApplication/app/src/main/res/layout/activity_profile.xml" value="0.21666666666666667" />
         <entry key="..\:/Android Development/Kotlin/24.FirebaseChatApplication/app/src/main/res/layout/activity_signup.xml" value="0.21041666666666667" />
-        <entry key="..\:/Android Development/Kotlin/24.FirebaseChatApplication/app/src/main/res/layout/activity_user.xml" value="0.2025862068965517" />
+        <entry key="..\:/Android Development/Kotlin/24.FirebaseChatApplication/app/src/main/res/layout/activity_user.xml" value="0.16" />
         <entry key="..\:/Android Development/Kotlin/24.FirebaseChatApplication/app/src/main/res/layout/item_left.xml" value="0.3888888888888889" />
         <entry key="..\:/Android Development/Kotlin/24.FirebaseChatApplication/app/src/main/res/layout/item_right.xml" value="0.22447916666666667" />
         <entry key="..\:/Android Development/Kotlin/24.FirebaseChatApplication/app/src/main/res/layout/item_user.xml" value="0.1" />

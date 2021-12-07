@@ -4,23 +4,20 @@ import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.application.hichat.R
 import com.application.hichat.constants.Constants.MESSAGE_TYPE_LEFT
 import com.application.hichat.constants.Constants.MESSAGE_TYPE_RIGHT
 import com.application.hichat.models.Chat
-import com.application.hichat.models.User
-import com.bumptech.glide.Glide
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
 import de.hdodenhof.circleimageview.CircleImageView
 
-class ChatAdapter(
+class _ChatAdapter(
     private val context: Context,
     private val chatList: ArrayList<Chat>
-) : RecyclerView.Adapter<ChatAdapter.ViewHolder>() {
+) : RecyclerView.Adapter<_ChatAdapter.ViewHolder>() {
 
 
     var firebaseUser: FirebaseUser? = null

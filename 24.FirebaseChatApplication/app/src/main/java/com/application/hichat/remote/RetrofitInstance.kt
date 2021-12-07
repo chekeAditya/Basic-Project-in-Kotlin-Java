@@ -1,4 +1,4 @@
-package com.application.hichat
+package com.application.hichat.remote
 
 import com.application.hichat.constants.Constants.BASE_URL
 import com.application.hichat.interfaces.NotificationApi

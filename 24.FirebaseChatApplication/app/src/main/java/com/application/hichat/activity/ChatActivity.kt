@@ -1,19 +1,17 @@
 package com.application.hichat.activity
 
-import android.annotation.SuppressLint
 import android.os.Bundle
 import android.util.Log
-import android.widget.LinearLayout
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.application.hichat.R
-import com.application.hichat.RetrofitInstance
-import com.application.hichat.adapters.ChatAdapter
+import com.application.hichat.adapters._ChatAdapter
 import com.application.hichat.models.Chat
 import com.application.hichat.models.NotificationDataModel
 import com.application.hichat.models.PushNotification
 import com.application.hichat.models.User
+import com.application.hichat.remote.RetrofitInstance
 import com.bumptech.glide.Glide
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
@@ -24,7 +22,6 @@ import kotlinx.android.synthetic.main.activity_user.*
 import kotlinx.android.synthetic.main.activity_user.imgProfile
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.Dispatchers.IO
 import kotlinx.coroutines.launch
 import java.lang.Exception
 import java.util.ArrayList
@@ -122,7 +119,7 @@ class ChatActivity : AppCompatActivity() {
                     }
                 }
 
-                val chatAdapter = ChatAdapter(this@ChatActivity, chatList)
+                val chatAdapter = _ChatAdapter(this@ChatActivity, chatList)
 
                 chatRecyclerView.adapter = chatAdapter
             }
