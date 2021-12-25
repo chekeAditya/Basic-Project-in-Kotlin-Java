@@ -9,11 +9,9 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.work.PeriodicWorkRequest;
+import androidx.work.OneTimeWorkRequest;
 import androidx.work.WorkManager;
 import androidx.work.WorkRequest;
-
-import java.util.concurrent.TimeUnit;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -36,6 +34,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private boolean mStopLoop;
     private WorkRequest workRequest;
+//    private WorkRequest workRequest1;
+//    private WorkRequest workRequest2;
 
 
     @Override
@@ -56,8 +56,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         workManager = WorkManager.getInstance(getApplicationContext());
 
         //workRequest = OneTimeWorkRequest.from(RandomNumberGeneratorWorker.class);
-
-        workRequest = new PeriodicWorkRequest.Builder(RandomNumberGeneratorWorker.class, 15, TimeUnit.MINUTES).build();
+/**Here we had 3 worker*/
+//        workRequest = new PeriodicWorkRequest.Builder(RandomNumberGeneratorWorker.class, 15, TimeUnit.MINUTES).addTag("worker1").build();
+        workRequest = new OneTimeWorkRequest.Builder(RandomNumberGeneratorWorker.class).addTag("worker1").build();
+//        workRequest1 = new OneTimeWorkRequest.Builder(RandomNumberGeneratorWorker.class).addTag("worker2").build();
+//        workRequest2 = new OneTimeWorkRequest.Builder(RandomNumberGeneratorWorker.class).addTag("worker3").build();
     }
 
     @Override
@@ -66,6 +69,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.buttonThreadStarter:
                 mStopLoop = true;
                 workManager.enqueue(workRequest);
+                /**Chainging the work as per our need*/
+//                workManager.beginWith((OneTimeWorkRequest) workRequest).then((OneTimeWorkRequest) workRequest1).then((OneTimeWorkRequest) workRequest2).enqueue(workRequest);
+
+                /**working parallel*/
+//                workManager.beginWith(Arrays.asList( workRequest, workRequest1)).then((OneTimeWorkRequest) workRequest2).enqueue(workRequest);
                 break;
             case R.id.buttonStopthread:
                 workManager.cancelWorkById(workRequest.getId());
